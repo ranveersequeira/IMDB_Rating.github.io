@@ -61,7 +61,7 @@ let movies = [
 window.onload = function() {
 
     // Display Movies list
-    let sortmovies = sortMoviesByAttr(movies,'title');
+    let sortmovies = sortMoviesByAttr(movies,'rank');
     displayMovies(sortmovies);
 }
 
